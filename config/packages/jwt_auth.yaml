@@ -1,0 +1,4 @@
+jwt_auth:
+    domain: bk-samples.auth0.com
+    authorized_issuer: https://bk-samples.auth0.com/
+    api_identifier: http://localhost:8000/api

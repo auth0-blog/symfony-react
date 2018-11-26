@@ -29,3 +29,8 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    # add this code
+    web_service_user_provider:
+        class: App\Security\User\WebServiceUserProvider
+        arguments: ["@jwt_auth.auth0_service"]
